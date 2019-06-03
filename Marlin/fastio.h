@@ -54,6 +54,7 @@
   #include "fastio_1281.h"
 #else
   #error "Pins for this chip not defined in Arduino.h! If you have a working pins definition, please contribute!"
+  #error "JDR: Need to select board Arduino/Genuino Mega or Mega 2560"
 #endif
 
 #ifndef _BV
